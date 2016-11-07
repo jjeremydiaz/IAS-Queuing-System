@@ -1,2 +1,2 @@
 # IAS-Queuing-System
-UCB IAS advising queue system
+UC Berkeling IAS advising queue system
