@@ -29,12 +29,26 @@ html, body {
 .demo-layout .demo-header .mdl-textfield .mdl-textfield__expandable-holder {
   bottom: 19px;
 }
-.demo-layout .mdl-layout__header .mdl-layout__drawer-button {
-  color: rgba(0, 0, 0, 0.54);
+.demo-header {
+  left: -1000px;
 }
-.mdl-layout__drawer .avatar {
+
+.demo-layout .mdl-layout__header .mdl-layout__drawer-button {
+  color: white;
+}
+.avatar {
   margin-bottom: 16px;
 }
+.mdl-layout__drawer {
+  margin-bottom: 16px;
+  width: 100px;
+  left: -8px;
+}
+/*
+.mdl-layout__drawer.is-visible {
+  left: 0;
+}
+*/
 .demo-drawer {
   border: none;
 }
@@ -65,8 +79,8 @@ html, body {
   -webkit-justify-content: flex-end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  padding: 16px;
-  height: 151px;
+  padding: 28px;
+  height: 110px;
 }
 .demo-avatar-dropdown {
   display: -webkit-flex;
